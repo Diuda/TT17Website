@@ -1,5 +1,12 @@
 var state1 = new Kiwi.State( "state1" );
 
+
+state1.init = function () {
+    this.game.stage.width = 4689;
+    this.game.stage.height = 5000;
+}
+
+
 state1.create = function() {
 	Kiwi.State.prototype.create.call( this );
 
@@ -68,7 +75,7 @@ state1.update = function() {
 	}
 	else if ( this.rightKey.isDown ) {
 
-		if ( this.character.transform.x < 600 ) {
+		if ( this.character.transform.x < 5000 ) {
 			this.character.transform.x += 3;
 		}
 		if ( this.character.animation.currentAnimation.name !== "moveright" ) {
