@@ -75,18 +75,24 @@ state1.update = function() {
 		if ( this.character.transform.x > 3 ) {
 			this.character.transform.x -= 3;
 		}
-		if (this.character.animation.currentAnimation.name !== "moveleft") {
-			this.character.animation.play( "moveleft" );
-		}
+		// if (this.character.animation.currentAnimation.name !== "moveleft") {
+		// 	this.character.animation.play( "moveleft" );
+		// }
+		this.character.rotPointY = 0;
+		this.character.rotPointX = 0;
+		this.character.rotation+=Math.PI/60;
 	}
 	else if ( this.rightKey.isDown ) {
 
 		if ( this.character.transform.x < 5000 ) {
 			this.character.transform.x += 3;
 		}
-		if ( this.character.animation.currentAnimation.name !== "moveright" ) {
-			this.character.animation.play("moveright");
-		}
+		// if ( this.character.animation.currentAnimation.name !== "moveright" ) {
+		// 	this.character.animation.play("moveright");
+		// }
+		this.character.rotPointY = 0;
+		this.character.rotPointX = 0;
+		this.character.rotation+=Math.PI/300;
 	}
 	else {
 		if ( this.character.animation.currentAnimation.name !==
