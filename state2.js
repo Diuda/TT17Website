@@ -1,19 +1,19 @@
-var state1 = new Kiwi.State( "state1" );
+var state2 = new Kiwi.State("state2");
 
-
-state1.init = function () {
-    this.game.stage.width = 4689;
-    this.game.stage.height = 5000;
+state2.init = function () {
+    this.game.stage.width = 2400;
+    this.game.stage.height = 1190;
 }
 
 
-state1.create = function() {
-	Kiwi.State.prototype.create.call( this );
+
+state2.create = function() {
+	Kiwi.State.prototype.create.call(this);
 
 	this.background = new Kiwi.GameObjects.StaticImage(
-		this, this.textures[ "map" ], 0, 0 );
+		this, this.textures["map1"], 0, 0);
 	this.character = new Kiwi.GameObjects.Sprite(
-		this, this.textures[ "characterSprite" ], 16, 291 );
+		this, this.textures["characterSprite"], 16, 291);
 
 	this.upKey = this.game.input.keyboard.addKey(
 		Kiwi.Input.Keycodes.UP );
@@ -35,32 +35,26 @@ state1.create = function() {
 	this.character.animation.add(
 		"movedown", [ 22, 23, 24, 25, 26, 27 ], 0.1, true );
 
-	// this.facing = "right";
-
-	// this.character.animation.play( "idleright" );
-
 	this.addChild(this.background);
-	this.addChild( this.character );
+	this.addChild(this.character);
 
 };
 
+state2.update = function() {
+	Kiwi.State.prototype.update.call(this);
 
-state1.update = function() {
-	Kiwi.State.prototype.update.call( this );
 
 	if( this.stateKey.isDown && this.character.transform.x >100 && this.character.transform.x<400){
-		this.game.states.switchState("state2");
+		this.game.states.switchState("state1");
 	}
 
-
-	if ( this.downKey.isDown ) {
-		if ( this.character.transform.y > 3 ) {
-			this.character.transform.y += 3;
+	if( this.downKey.isDown ) {
+		if( this.character.transform.y > 3) {
+			this.character.y +=3
 		}
-		if (this.character.animation.currentAnimation.name !== "movedown") {
-			this.character.animation.play( "movedown" );
+			if (this.character.animation.currentAnimation.name !== "movedown") {
+				this.character.animation.play( "movedown" );
 		}
-
 	}
 	else if(this.upKey.isDown) {
 		if ( this.character.transform.y > 3 ) {
@@ -88,10 +82,5 @@ state1.update = function() {
 			this.character.animation.play("moveright");
 		}
 	}
-	else {
-		if ( this.character.animation.currentAnimation.name !==
-				"idle" + this.facing ) {
-			this.character.animation.play( "idle" + this.facing );
-		}
-	}
-};
+
+}
