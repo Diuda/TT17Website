@@ -41,6 +41,9 @@ state1.create = function() {
 
 	this.addChild(this.background);
 	this.addChild( this.character );
+	this.character.scaleX = 0.5;
+	this.character.scaleY = 0.5;
+
 
 };
 
@@ -92,7 +95,7 @@ state1.update = function() {
 		// }
 		this.character.rotPointY = 0;
 		this.character.rotPointX = 0;
-		this.character.rotation+=Math.PI/300;
+		this.character.rotation+=Math.PI/180;
 	}
 	else {
 		if ( this.character.animation.currentAnimation.name !==
