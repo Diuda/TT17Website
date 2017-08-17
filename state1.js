@@ -51,14 +51,16 @@ state1.create = function() {
 state1.update = function() {
 	Kiwi.State.prototype.update.call( this );
 
+	// this.character.x = this.game.stage.width*0.5;
+
 	if( this.stateKey.isDown && this.character.transform.x >100 && this.character.transform.x<400){
 		this.game.states.switchState("state2");
 	}
 
 
 	if ( this.downKey.isDown ) {
-		if ( this.character.transform.y > 3 ) {
-			this.character.transform.y += 3;
+		if ( this.character.y > 3 ) {
+			this.character.y += 3;
 		}
 		if (this.character.animation.currentAnimation.name !== "movedown") {
 			this.character.animation.play( "movedown" );
@@ -66,37 +68,56 @@ state1.update = function() {
 
 	}
 	else if(this.upKey.isDown) {
-		if ( this.character.transform.y > 3 ) {
-			this.character.transform.y -= 3;
+		if ( this.character.y > 3 ) {
+			this.character.y -= 3;
 		}
 		if (this.character.animation.currentAnimation.name !== "moveup") {
 			this.character.animation.play( "moveup" );
 		}
 	}
-	else if ( this.leftKey.isDown ) {
+	else if ( this.leftKey.isDown) {
 
-		if ( this.character.transform.x > 3 ) {
-			this.character.transform.x -= 3;
-		}
-		// if (this.character.animation.currentAnimation.name !== "moveleft") {
-		// 	this.character.animation.play( "moveleft" );
-		// }
-		this.character.rotPointY = 0;
-		this.character.rotPointX = 0;
-		this.character.rotation+=Math.PI/60;
+		// this.character.rotPointY = 0;
+		// this.character.rotPointX = 0;
+		this.character.rotation-=Math.PI/60;
 	}
-	else if ( this.rightKey.isDown ) {
 
-		if ( this.character.transform.x < 5000 ) {
-			this.character.transform.x += 3;
-		}
-		// if ( this.character.animation.currentAnimation.name !== "moveright" ) {
-		// 	this.character.animation.play("moveright");
-		// }
-		this.character.rotPointY = 0;
-		this.character.rotPointX = 0;
-		this.character.rotation+=Math.PI/180;
-	}
+	// else if(this.leftKey.isDown) {
+	// 	if ( this.character.x > 3 ) {
+	// 		this.character.x -= 3;
+	// 	}
+	// 	if (this.character.animation.currentAnimation.name !== "moveleft") {
+	// 		this.character.animation.play( "moveleft" );
+	// 	}
+	// }
+
+	else if ( this.rightKey.isDown) {
+
+	// this.character.rotPointY = 0;
+	// this.character.rotPointX = 0;
+	this.character.rotation+=Math.PI/60;
+		// this.character.x +=3;
+		// this.character.y +=3;
+}
+// 	else if( this.rightKey.isDown && this.upKey.isDown) {
+// 		this.character.x +=3;
+// 		this.character.y -=3
+// ;	}
+
+	// else if ( this.rightKey.isDown ) {
+
+	// 	if ( this.character.transform.x < 5000 ) {
+	// 		// this.character.transform.x += 3;
+	// 		// this.character.transform.x += this.speed * Math.cos(this.angle * Math.PI / 180);
+	// 		   this.character.x +=3;
+	// 	}
+	// 	if ( this.character.animation.currentAnimation.name !== "moveright" ) {
+	// 		this.character.animation.play("moveright");
+	// 	}
+	// 	// this.character.rotPointY = 0;
+	// 	// this.character.rotPointX = 0;
+	// 	// this.character.rotation+=Math.PI/180;
+	// }
 	else {
 		if ( this.character.animation.currentAnimation.name !==
 				"idle" + this.facing ) {
