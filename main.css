@@ -1,0 +1,13 @@
+body{
+	background-color: black;
+}
+.loadsc{
+	margin-top: 10%;
+	text-align: center;
+}
+@media screen and (max-width: 475px){
+	.loadsc{
+		margin-top: 10%;
+		text-align: center;
+	}
+}
