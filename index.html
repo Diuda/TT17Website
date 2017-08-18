@@ -1,21 +1,24 @@
+<!DOCTYPE html>
 <html>
 <head>
-
-<title>TechTatva '17</title>
-<meta charset="utf-8">
-<meta name="description" content="">
-<meta name="keywords" content="">
-<meta name="theme-color" content="#000000" />   
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link href="http://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet" type="text/css">
-<link rel="stylesheet" type="text/css" href="main.css">
-
+	<title>TT Map</title>
+	<script type="text/javascript" src="kiwi-js-v1.4.0/kiwi.min.js"></script>
+	<script type="text/javascript" src = "loading.js"></script>
+	<script type="text/javascript" src = "state2.js"></script>
+	<script type="text/javascript" src = "state1.js"></script>
+	<script type="text/javascript" src = "main.js"></script>
 </head>
-<body style="background-color: black;">
-<div class="loadsc">
-<object>
-<embed src="tt17_logo.svg" height="500" width="100%"></embed>
-</object>
-</div>
+<body>
+	<!-- <div id="content/"></div> -->
+	<!-- <div id="rocket-container"></div> -->
 </body>
+<script type="text/javascript">
+	window.addEventListener("keydown", function(e) {
+    // space and arrow keys
+    if([32, 37, 38, 39, 40].indexOf(e.keyCode) > -1) {
+        e.preventDefault();
+    }
+}, false);
+</script>
+
 </html>
