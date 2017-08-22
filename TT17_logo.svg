@@ -1,0 +1,938 @@
+<svg id="TT_17" data-name="TT&apos;17" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1385.1 961.4">
+  <defs>
+    <style>
+      #Vertical{
+      stroke-dasharray: 2000;
+      stroke-dashoffset:0;
+      -webkit-animation: dash 12s ease forwards;
+      -o-animation: dash 12s ease forwards;
+      -moz-animation: dash 11s ease forwards;
+      animation: dash 12s ease forwards;
+      }
+      @-webkit-keyframes dash{
+      65%{
+      /*transform:rotateY(90deg);*/
+      stroke-dashoffset: 4000;
+      stroke:#ffffff;
+      stroke-width:5;
+      fill: #000000;
+      }
+      80%{
+      /*stroke-dashoffset: 0;*/
+      
+      fill:#000000;
+      }
+      100%{
+      /*transform:rotateY(0deg);*/
+      fill:#17bae0;
+      stroke:#17bae0;
+      stroke-dashoffset: 0;
+      }
+      }
+      #Vertical-2{
+      stroke-dasharray: 2000;
+      stroke-dashoffset:0;
+      -webkit-animation: dashv 12s ease forwards;
+      -o-animation: dashv 12s ease forwards;
+      -moz-animation: dashv 12s ease forwards;
+      animation: dashv 12s ease forwards;
+      }
+      @-webkit-keyframes dashv{
+      65%{
+      /*transform:rotateY(90deg);*/
+      stroke-dashoffset: 4000;
+      stroke:#ffffff;
+      stroke-width:5;
+      fill: #000000;
+      }
+      80%{
+      /*stroke-dashoffset: 0;*/
+      
+      fill:#000000;
+      }
+      100%{
+      /*transform:rotateY(0deg);*/
+      fill:#17bae0;
+      stroke:#17bae0;
+      stroke-dashoffset: 0;
+      }
+      }
+
+      #Element_12{
+      stroke-dasharray: 2000;
+      stroke-dashoffset:0;
+      -webkit-animation: dash12 4s ease forwards;
+      -o-animation: dash12 4s ease forwards;
+      -moz-animation: dash12 4s ease forwards;
+      animation: dash12 4s ease forwards;
+      }
+      @-webkit-keyframes dash12{
+      0%{
+      stroke-dashoffset: 2000;
+      stroke:#ffffff;
+      stroke-width:5;
+      fill: #000000;
+      }
+      70%{
+      stroke-dashoffset: 0;
+      
+      fill:#000000;
+      }
+      100%{
+      fill:#17bae0;
+      stroke:#17bae0;
+      }
+      }
+      #Element_12-2{
+      stroke-dasharray: 2000;
+      stroke-dashoffset:0;
+      -webkit-animation: dash12 4s ease forwards;
+      -o-animation: dash12 4s ease forwards;
+      -moz-animation: dash12 4s ease forwards;
+      animation: dash12 4s ease forwards;
+      }
+      @-webkit-keyframes dash12{
+      0%{
+      stroke-dashoffset: 2000;
+      stroke:#ffffff;
+      stroke-width:5;
+      fill: #000000;
+      }
+      70%{
+      stroke-dashoffset: 0;
+      
+      fill:#000000;
+      }
+      100%{
+      fill:#17bae0;
+      stroke:#17bae0;
+      }
+      }
+      #Element_11{
+      stroke-dasharray: 2000;
+      stroke-dashoffset:0;
+      -webkit-animation: dash11 5.1s ease forwards;
+      -o-animation: dash11 5.1s ease forwards;
+      -moz-animation: dash11 5.1s ease forwards;
+      animation: dash11 5.1s ease forwards;
+      }
+      @-webkit-keyframes dash11{
+      0%{
+      transform:translate(2000px,-1000px);
+      }
+
+     86%{
+      /*stroke-dashoffset: 2000;
+      stroke:#fffff;
+      stroke-width:5;*/
+      fill: violet;
+      transform:translate(2000px,-1000px);
+      }
+      98%{fill: violet;}
+      100%{
+      fill:#17bae0;
+      /*stroke:#17bae0;*/
+      transform:translate(0px,0px);
+      }
+      }
+
+      #Element_11-2{
+      stroke-dasharray: 2000;
+      stroke-dashoffset:0;
+      -webkit-animation: dash112 5.1s ease forwards;
+      -o-animation: dash112 5.1s ease forwards;
+      -moz-animation: dash112 5.1s ease forwards;
+      animation: dash112 5.1s ease forwards;
+      }
+      @-webkit-keyframes dash112{
+      0%{
+      transform:translateX(-2000px);
+      }
+
+     86%{
+      /*stroke-dashoffset: 2000;
+      stroke:#fffff;
+      stroke-width:5;*/
+      fill: violet;
+      transform:translateX(-2000px);
+      }
+      98%{fill: violet;}
+      100%{
+      fill:#17bae0;
+      /*stroke:#17bae0;*/
+      transform:translateX(0px);
+      }
+      }
+
+      #Element_10{
+      stroke-dasharray: 2000;
+      stroke-dashoffset:0;
+      -webkit-animation: dash10 4.9s ease forwards;
+      -o-animation: dash10 4.9s ease forwards;
+      -moz-animation: dash10 4.9s ease forwards;
+      animation: dash10 4.9s ease forwards;
+      }
+      @-webkit-keyframes dash10{
+     0%{
+      transform:translate(2000px,-800px);
+      }
+
+     84%{
+      /*stroke-dashoffset: 2000;
+      stroke:#fffff;
+      stroke-width:5;*/
+      fill: indigo;
+      transform:translate(2000px,-800px);
+      }
+      98%{fill: indigo;}
+      100%{
+      fill:#17bae0;
+      /*stroke:#17bae0;*/
+      transform:translate(0px,0px);
+      }
+      }
+      #Element_10-2{
+      stroke-dasharray: 2000;
+      stroke-dashoffset:0;
+      -webkit-animation: dash102 4.9s ease forwards;
+      -o-animation: dash102 4.9s ease forwards;
+      -moz-animation: dash102 4.9s ease forwards;
+      animation: dash102 4.9s ease forwards;
+      }
+      @-webkit-keyframes dash102{
+     0%{
+      transform:translateX(-2000px);
+      }
+
+     84%{
+      /*stroke-dashoffset: 2000;
+      stroke:#fffff;
+      stroke-width:5;
+      fill: #000000;*/
+      fill: indigo;
+      transform:translateX(-2000px);
+      }
+      98%{fill: indigo;}
+      100%{
+      fill:#17bae0;
+      /*stroke:#17bae0;*/
+      transform:translateX(0px);
+      }
+      }
+      #Element_9{
+      stroke-dasharray: 2000;
+      stroke-dashoffset:0;
+      -webkit-animation: dash9 4.7s ease forwards;
+      -o-animation: dash9 4.7s ease forwards;
+      -moz-animation: dash9 4.7s ease forwards;
+      animation: dash9 4.7s ease forwards;
+      }
+      @-webkit-keyframes dash9{
+      0%{
+      transform:translate(2000px,-600px);
+      }
+
+     82%{
+      /*stroke-dashoffset: 2000;
+      stroke:#fffff;
+      stroke-width:5;*/
+      fill: blue;
+      transform:translate(2000px,-600px);
+      }
+      98%{fill: blue;}
+      100%{
+      fill:#17bae0;
+      /*stroke:#17bae0;*/
+      transform:translate(0px,0px);
+      }
+      }
+      #Element_9-2{
+      stroke-dasharray: 2000;
+      stroke-dashoffset:0;
+      -webkit-animation: dash92 4.7s ease forwards;
+      -o-animation: dash92 4.7s ease forwards;
+      -moz-animation: dash92 4.7s ease forwards;
+      animation: dash92 4.7s ease forwards;
+      }
+      @-webkit-keyframes dash92{
+      0%{
+      transform:translateX(-2000px);
+      }
+
+     82%{
+      /*stroke-dashoffset: 2000;
+      stroke:#fffff;
+      stroke-width:5;*/
+      fill: blue;
+      transform:translateX(-2000px);
+      }
+      98%{fill: blue;}
+      100%{
+      fill:#17bae0;
+      /*stroke:#17bae0;*/
+      transform:translateX(0px);
+      }
+      }
+      #Element_8{
+      stroke-dasharray: 2000;
+      stroke-dashoffset:0;
+      -webkit-animation: dash8 4.5s ease forwards;
+      -o-animation: dash8 4.5s ease forwards;
+      -moz-animation: dash8 4.5s ease forwards;
+      animation: dash8 4.5s ease forwards;
+      }
+      @-webkit-keyframes dash8{
+      0%{
+      transform:translate(2000px,-400px);
+      }
+
+     80%{
+      /*stroke-dashoffset: 2000;
+      stroke:#fffff;
+      stroke-width:5;*/
+      fill: green;
+      transform:translate(2000px,-400px);
+      }
+      98%{fill: green;}
+      100%{
+      fill:#17bae0;
+      /*stroke:#17bae0;*/
+      transform:translate(0px,0px);
+      }
+      }
+      #Element_8-2{
+      stroke-dasharray: 2000;
+      stroke-dashoffset:0;
+      -webkit-animation: dash82 4.5s ease forwards;
+      -o-animation: dash82 4.5s ease forwards;
+      -moz-animation: dash82 4.5s ease forwards;
+      animation: dash82 4.5s ease forwards;
+      }
+      @-webkit-keyframes dash82{
+      0%{
+      transform:translateX(-2000px);
+      }
+
+     80%{
+      /*stroke-dashoffset: 2000;
+      stroke:#fffff;
+      stroke-width:5;*/
+      fill: green;
+      transform:translateX(-2000px);
+      }
+      98%{fill: green;}
+      100%{
+      fill:#17bae0;
+      /*stroke:#17bae0;*/
+      transform:translateX(0px);
+      }
+      }
+      #Element_7{
+      stroke-dasharray: 2000;
+      stroke-dashoffset:0;
+      -webkit-animation: dash7 4.3s ease forwards;
+      -o-animation: dash7 4.3s ease forwards;
+      -moz-animation: dash7 4.3s ease forwards;
+      animation: dash7 4.3s ease forwards;
+      }
+      @-webkit-keyframes dash7{
+      0%{
+      transform:translateX(2000px);
+      }
+
+     78%{
+      /*stroke-dashoffset: 2000;
+      stroke:#fffff;
+      stroke-width:5;*/
+      fill: yellow;
+      transform:translateX(2000px);
+      }
+      98%{fill: yellow;}
+      100%{
+      fill:#17bae0;
+      /*stroke:#17bae0;*/
+      transform:translateX(0px);
+      }
+      }
+      #Element_7-2{
+      stroke-dasharray: 2000;
+      stroke-dashoffset:0;
+      -webkit-animation: dash72 4.3s ease forwards;
+      -o-animation: dash72 4.3s ease forwards;
+      -moz-animation: dash72 4.3s ease forwards;
+      animation: dash72 4.3s ease forwards;
+      }
+      @-webkit-keyframes dash72{
+      0%{
+      transform:translateX(-2000px);
+      }
+
+     78%{
+      /*stroke-dashoffset: 2000;
+      stroke:#fffff;
+      stroke-width:5;*/
+      fill: yellow;
+      transform:translateX(-2000px);
+      }
+      98%{fill: yellow;}
+      100%{
+      fill:#17bae0;
+      /*stroke:#17bae0;*/
+      transform:translateX(0px);
+      }
+      }
+      #Element_6{
+      stroke-dasharray: 2000;
+      stroke-dashoffset:0;
+      -webkit-animation: dash6 4.1s ease forwards;
+      -o-animation: dash6 4.1s ease forwards;
+      -moz-animation: dash6 4.1s ease forwards;
+      animation: dash6 4.1s ease forwards;
+      }
+      @-webkit-keyframes dash6{
+      0%{
+      transform:translateX(2000px);
+      }
+
+     76%{
+      /*stroke-dashoffset: 2000;
+      stroke:#fffff;
+      stroke-width:5;*/
+      fill: orange;
+      transform:translateX(2000px);
+      }
+      98%{fill: orange;}
+      100%{
+      fill:#17bae0;
+      /*stroke:#17bae0;*/
+      transform:translateX(0px);
+      }
+      }
+      #Element_6-2{
+      stroke-dasharray: 2000;
+      stroke-dashoffset:0;
+      -webkit-animation: dash62 4.1s ease forwards;
+      -o-animation: dash62 4.1s ease forwards;
+      -moz-animation: dash62 4.1s ease forwards;
+      animation: dash62 4.1s ease forwards;
+      }
+      @-webkit-keyframes dash62{
+      0%{
+      transform:translateX(-2000px);
+      }
+
+     76%{
+      /*stroke-dashoffset: 2000;
+      stroke:#fffff;
+      stroke-width:5;*/
+      fill: orange;
+      transform:translateX(-2000px);
+      }
+      98%{fill: orange;}
+      100%{
+      fill:#17bae0;
+      /*stroke:#17bae0;*/
+      transform:translateX(0px);
+      }
+      }
+      #Element_5{
+      stroke-dasharray: 2000;
+      stroke-dashoffset:0;
+      -webkit-animation: dash5 3.9s ease forwards;
+      -o-animation: dash5 3.9s ease forwards;
+      -moz-animation: dash5 3.9s ease forwards;
+      animation: dash5 3.9s ease forwards;
+      }
+      @-webkit-keyframes dash5{
+      0%{
+      transform:translateX(2000px);
+      }
+
+     74%{
+      /*stroke-dashoffset: 2000;
+      stroke:#fffff;
+      stroke-width:5;*/
+      fill: red;
+      transform:translateX(2000px);
+      }
+      98%{fill: red;}
+      100%{
+      fill:#17bae0;
+      /*stroke:#17bae0;*/
+      transform:translateX(0px);
+      }
+      }
+      #Element_5-2{
+      stroke-dasharray: 2000;
+      stroke-dashoffset:0;
+      -webkit-animation: dash52 3.9s ease forwards;
+      -o-animation: dash52 3.9s ease forwards;
+      -moz-animation: dash52 3.9s ease forwards;
+      animation: dash52 3.9s ease forwards;
+      }
+      @-webkit-keyframes dash52{
+      0%{
+      transform:translateX(-2000px);
+      }
+
+     74%{
+      /*stroke-dashoffset: 2000;
+      stroke:#fffff;
+      stroke-width:5;*/
+      fill: red;
+      transform:translateX(-2000px);
+      }
+      98%{fill: red;}
+      100%{
+      fill:#17bae0;
+      /*stroke:#17bae0;*/
+      transform:translateX(0px);
+      }
+      }
+      #Element_4{
+      stroke-dasharray: 2000;
+      stroke-dashoffset:0;
+      -webkit-animation: dash4 3.7s ease forwards;
+      -o-animation: dash4 3.7s ease forwards;
+      -moz-animation: dash4 3.7s ease forwards;
+      animation: dash4 3.7s ease forwards;
+      }
+      @-webkit-keyframes dash4{
+      0%{
+      transform:translate(1500px,400px);
+      }
+
+     72%{
+      /*stroke-dashoffset: 2000;
+      stroke:#fffff;
+      stroke-width:5;*/
+      fill: violet;
+      transform:translate(1500px,400px);
+      }
+      98%{
+      fill:violet;
+      }
+      100%{
+      fill:#17bae0;
+      /*stroke:#17bae0;*/
+      transform:translate(0px,0px);
+      }
+      }
+      #Element_4-2{
+      stroke-dasharray: 2000;
+      stroke-dashoffset:0;
+      -webkit-animation: dash42 3.7s ease forwards;
+      -o-animation: dash42 3.7s ease forwards;
+      -moz-animation: dash42 3.7s ease forwards;
+      animation: dash42 3.7s ease forwards;
+      }
+      @-webkit-keyframes dash42{
+      0%{
+      transform:translateX(-2000px);
+      }
+
+     72%{
+      /*stroke-dashoffset: 2000;
+      stroke:#fffff;
+      stroke-width:5;*/
+      fill: violet;
+      transform:translateX(-2000px);
+      }
+      98%{
+      fill:violet;
+      }
+      100%{
+      fill:#17bae0;
+      /*stroke:#17bae0;*/
+      transform:translateX(0px);
+      }
+      }
+      #Element_3{
+      stroke-dasharray: 2000;
+      stroke-dashoffset:0;
+      -webkit-animation: dash3 3.5s ease forwards;
+      -o-animation: dash3 3.5s ease forwards;
+      -moz-animation: dash3 3.5s ease forwards;
+      animation: dash3 3.5s ease forwards;
+      }
+      @-webkit-keyframes dash3{
+      0%{
+      transform:translate(1500px,600px);
+      }
+
+     70%{
+      /*stroke-dashoffset: 2000;
+      stroke:#fffff;
+      stroke-width:5;*/
+      fill: indigo;
+      transform:translate(1500px,600px);
+      }
+      98%{
+      fill:indigo;
+      }
+      100%{
+      fill:#17bae0;
+      /*stroke:#17bae0;*/
+      transform:translate(0px,0px);
+      }
+      }
+      #Element_3-2{
+      stroke-dasharray: 2000;
+      stroke-dashoffset:0;
+      -webkit-animation: dash32 3.5s ease forwards;
+      -o-animation: dash32 3.5s ease forwards;
+      -moz-animation: dash32 3.5s ease forwards;
+      animation: dash32 3.5s ease forwards;
+      }
+      @-webkit-keyframes dash32{
+      0%{
+      transform:translateX(-2000px);
+      }
+
+     70%{
+      /*stroke-dashoffset: 2000;
+      stroke:#fffff;
+      stroke-width:5;*/
+      fill: indigo;
+      transform:translateX(-2000px);
+      }
+      98%{
+      fill:indigo;
+      }
+      100%{
+      fill:#17bae0;
+      /*stroke:#17bae0;*/
+      transform:translateX(0px);
+      }
+      }
+      #Element_2{
+      stroke-dasharray: 2000;
+      stroke-dashoffset:0;
+      -webkit-animation: dash2 3.2s ease forwards;
+      -o-animation: dash2 3.2s ease forwards;
+      -moz-animation: dash2 3.2s ease forwards;
+      animation: dash2 3.2s ease forwards;
+      }
+      @-webkit-keyframes dash2{
+      0%{
+      transform:translate(1500px,800px);
+      }
+
+     68%{
+      /*stroke-dashoffset: 2000;
+      stroke:#fffff;
+      stroke-width:5;*/
+      fill: blue;
+      transform:translate(1500px,800px);
+      }
+      98%{
+      fill:blue;
+      }
+      100%{
+      fill:#17bae0;
+      /*stroke:#17bae0;*/
+      transform:translate(0px,0px);
+      }
+      }
+      #Element_2-2{
+      stroke-dasharray: 2000;
+      stroke-dashoffset:0;
+      -webkit-animation: dash22 3.2s ease forwards;
+      -o-animation: dash22 3.2s ease forwards;
+      -moz-animation: dash22 3.2s ease forwards;
+      animation: dash22 3.2s ease forwards;
+      }
+      @-webkit-keyframes dash22{
+      0%{
+      transform:translateX(-2000px);
+      }
+
+     68%{
+      /*stroke-dashoffset: 2000;
+      stroke:#fffff;
+      stroke-width:5;*/
+      fill: blue;
+      transform:translateX(-2000px);
+      }
+      98%{
+      fill:blue;
+      }
+      100%{
+      fill:#17bae0;
+      /*stroke:#17bae0;*/
+      transform:translateX(0px);
+      }
+      }
+      #Element_1{
+      stroke-dasharray: 2000;
+      stroke-dashoffset:0;
+      -webkit-animation: dash1 3s ease forwards;
+      -o-animation: dash1 3s ease forwards;
+      -moz-animation: dash1 3s ease forwards;
+      animation: dash1 3s ease forwards;
+      }
+      @-webkit-keyframes dash1{
+      0%{
+      transform:translate(1500px,1000px);
+      }
+
+     66%{
+      /*stroke-dashoffset: 2000;
+      stroke:#fffff;
+      stroke-width:5;*/
+      fill: green;
+      transform:translate(1500px,1000px);
+      }
+      98%{
+      fill:green;
+      }
+      100%{
+      fill:#17bae0;
+      /*stroke:#17bae0;*/
+      transform:translate(0px,0px);
+      }
+      }
+      #Element_1-2{
+      stroke-dasharray: 2000;
+      stroke-dashoffset:0;
+      -webkit-animation: dash1222 3s ease forwards;
+      -o-animation: dash1222 3s ease forwards;
+      -moz-animation: dash1222 3s ease forwards;
+      animation: dash1222 3s ease forwards;
+      }
+      @-webkit-keyframes dash1222{
+      0%{
+      transform:translate(-2000px,1000px);
+      }
+
+     66%{
+      /*stroke-dashoffset: 2000;
+      stroke:#fffff;
+      stroke-width:5;*/
+      fill: green;
+      transform:translate(-2000px,1000px);
+      }
+      98%{
+      fill:green;
+      }
+      100%{
+      fill:#17bae0;
+      /*stroke:#17bae0;*/
+      transform:translate(0px,0px);
+      }
+      }
+      #White_Circle{
+
+      stroke-dasharray: 2000;
+      stroke-dashoffset:0;
+      -webkit-animation: dashc1 10s ease forwards;
+      -o-animation: dashc1 10s ease forwards;
+      -moz-animation: dashc1 10s ease forwards;
+      animation: dashc1 10s ease forwards;
+      }
+      @-webkit-keyframes dashc1{
+      0%{
+      transform:translateY(2000px);
+      
+      }
+
+     66%{
+      /*stroke-dashoffset: 2000;
+      stroke:#fffff;
+      stroke-width:5;
+      fill: #000000;*/
+      transform:translateY(2000px);
+      
+      }
+      88%{
+      
+      }
+      100%{
+      /*fill:#17bae0;
+      stroke:#17bae0;*/
+      transform:translateY(0px);
+      
+      }
+      }
+      #White_Circle-2{
+
+      stroke-dasharray: 2000;
+      stroke-dashoffset:0;
+      -webkit-animation: dashc 10s ease forwards;
+      -o-animation: dashc 10s ease forwards;
+      -moz-animation: dashc 10s ease forwards;
+      animation: dashc 10s ease forwards;
+      }
+      @-webkit-keyframes dashc{
+      0%{
+      transform:translateY(-2000px);
+      }
+
+     66%{
+      /*stroke-dashoffset: 2000;
+      stroke:#fffff;
+      stroke-width:5;
+      fill: #000000;*/
+      transform:translateY(-2000px);
+      }
+      100%{
+      /*fill:#17bae0;
+      stroke:#17bae0;*/
+      transform:translateY(0px);
+      }
+      }
+
+      /* #Text{
+      -webkit-animation: appear 13s ease forwards;
+      -o-animation: appear 13s ease forwards;
+      -moz-animation: appear 13s easeforwards;
+      animation: appear 13s ease forwards;
+      }
+      @-webkit-keyframes appear{
+      0%{opacity:0;}
+      89%{opacity:0;}
+      100%{opacity:1;}
+      }*/
+
+      #t,#e,#c,#h,#t3,#a,#t2,#v,#a2{
+      -webkit-animation: appeardown 13s ease forwards;
+      -o-animation: appeardown 13s ease forwards;
+      -moz-animation: appeardown 13s easeforwards;
+      animation: appeardown 13s ease forwards;
+      }
+      @-webkit-keyframes appeardown{
+      0%{opacity:0;transform:translateY(-1000px;)}
+      89%{opacity:0;transform:translateY(-1000px;)}
+      100%{opacity:1;transform:translateY(0px);}
+      }
+
+      #num1, #num2, #num3{
+
+      -webkit-animation: appearleft 13s ease forwards;
+      -o-animation: appearleft 13s ease forwards;
+      -moz-animation: appearleft 13s easeforwards;
+      animation: appearleft 13s ease forwards;
+      }
+      @-webkit-keyframes appearleft{
+      0%{opacity:0;transform:translateX(-1000px;)}
+      93%{opacity:0;transform:translateX(-1000px;)}
+      100%{opacity:1;transform:translateX(0px);}
+      }
+      #realising{
+      -webkit-animation: appearreal 15s ease forwards;
+      -o-animation: appearreal 15s ease forwards;
+      -moz-animation: appearreal 15s easeforwards;
+      animation: appearreal 15s ease forwards;
+      }
+      @-webkit-keyframes appearreal{
+      0%{opacity:0;transform:translateX(-1000px;)}
+      89%{opacity:0;transform:translateX(-1000px;)}
+      100%{opacity:1;transform:translateX(0px);}
+      }
+      #fiction{
+      -webkit-animation: appearfic 15s ease forwards;
+      -o-animation: appearfic 15s ease forwards;
+      -moz-animation: appearfic 15s easeforwards;
+      animation: appearfic 15s ease forwards;
+      perspective:1000px;
+      }
+      @-webkit-keyframes appearfic{
+      0%{opacity:0;transform:rotateY(90deg);transform-style: preserve-3d;}
+      93%{opacity:0;transform:rotateY(90deg);transform-style: preserve-3d;}
+      100%{opacity:1;transform:rotateY(0deg);transform-style: preserve-3d;}
+      }
+
+      .cls-1 {
+        fill: #17bae0;
+        /*stroke:#ffffff;
+        stroke-width:5;
+        stroke-miterlimit:5;*/
+      }
+
+      .cls-2 {
+        fill: #1691a5;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <title>TT17_logoforSVG</title>
+  <g id="Logo">
+    <g id="Right">
+      <path id="Vertical" d="M567.9,961.4c-24-271-43-374-4-473V381.2H547.1l-2,.4-3,.4v.2l17.6,5.1a82.4,82.4,0,0,1-1.1,13.2l-18.2,2.1a65.7,65.7,0,0,1-2.1,7.1L552.1,422a83.1,83.1,0,0,1-6.2,11.1l-17.3-5.4a66.5,66.5,0,0,1-6.4,7.2l6.7,16.9a82.5,82.5,0,0,1-9.9,6.8l-13.2-12.2a65.6,65.6,0,0,1-10.9,4.3l-1.8,17.7-5.7,1-5.8.5-6.1-16.5a65.7,65.7,0,0,1-12-1.2l-1.7,2.6c12.7,109.4,28.9,321.9-7,506.5Z"/>
+      <g id="Wing">
+        <path id="Element_12" data-name="Element 12" class="cls-1" d="M563.6,389.6a6.5,6.5,0,0,0-2,6.3,19.2,19.2,0,0,0,1,3.4,6.3,6.3,0,0,0-.9,1.9c-.8,2.8-1.1,5.7-1.6,8.5a6.9,6.9,0,0,0,.1,2.5l-.4-.3.4.4a6.6,6.6,0,0,0,2.3,3.8l-.2,1.6a38.4,38.4,0,0,0,4.1,4.1,12.7,12.7,0,0,0,15.2.9c5.2-3.2,3.5-8.3,2.1-12.9s-3-8.3-4.5-12.5l1.8-1.3c2.2,2.3,4.5,4.5,6.6,6.9s2.4,3.8,4.1,4.8c4.7,2.6,16.9,0,19.3-4.4s.7-10.8-3.2-15.4a25.3,25.3,0,0,1-3.4-4c-.7-1.3-.8-2.9-1.5-5.8,3.8,1.2,6.7,1.4,8.6,2.9,7.9,6.1,14.4,2.2,20.3-2.8a9.9,9.9,0,0,0,2.9-7.6c-1.1-8.1-6-13.2-14.1-15.2l-13.3-3.5.3-1.8c4,0,8.1.4,12.1,0,7.8-.7,13.9-6.2,14-12.2s-7-14.1-14.3-14.6c-2.5-.2-5.1.7-7.7,1.1l-8.1,1c3.6-8.4,10-8.7,16.3-8.6,32.2.9,62.4-6.8,90.8-21.5,9.1-4.7,16.7-2.6,25.9-1.2,73.5-13.6,129.5-93.6,78.9-166,.4,2.9.7,4.5.8,6.1.8,10.6,2.8,21.2,2.2,31.6-1.3,23.4-14.7,41.1-30.8,56.4-25.8,24.5-56.4,41.5-90.3,51.8-20.3,6.2-41.5,9.2-62.2,14.2q-24.9,6-49.6,13.2c-11.6,3.4-20.6,10.8-28.3,20s-3.6,24.3,6.3,27.4c6,1.8,7.5,6.9,7.4,12.4-.2,8.8-3.8,13.9-12.8,16.7l-5.3,1.5-1.7.3h0l-11.4,2.5v.8c3.3,0,6.5.2,9.8.5h.3a34.5,34.5,0,0,1,10.5,2.2A4.5,4.5,0,0,1,563.6,389.6Z"/>
+        <path id="Element_11" data-name="Element 11" class="cls-1" d="M817.6,261.4c-16.1,17.8-35.7,31-56.3,42.9A60.3,60.3,0,0,0,755,309c-1,.8-7.9,18.3-14.9,22.4,51.2,8,122.2-55,113.5-138.2L831.5,239C833.1,237.4,823.9,254.5,817.6,261.4Z"/>
+        <path id="Element_10" data-name="Element 10" class="cls-1" d="M765.5,338.6c-3.3,9.6-18.9,32.1-21.6,36.2l.5,1.3c53.9-13.6,127.4-68.6,116.8-114.7C836.6,297.2,804.1,321.5,765.5,338.6Z"/>
+        <path id="Element_9" data-name="Element 9" class="cls-2" d="M727.1,386.1c10.2,9.3,5.4,24.8,5.4,24.8,12.8-1.4,119.5-25.9,129.4-89.9C825.9,360.8,777.1,374.7,727.1,386.1Z"/>
+        <path id="Element_8" data-name="Element 8" class="cls-2" d="M702.3,436.3c-.4.1-.6.6-.9.9,33.8,17.5,114.5-14.1,123.5-46.6-36.6,21.1-75.4,26-115.2,26.7C709.9,418.3,710.4,434,702.3,436.3Z"/>
+        <path id="Element_7" data-name="Element 7" class="cls-1" d="M653,350.4c17.1-2.5,34.4-4.7,51.2-8.8a77.6,77.6,0,0,0,26.1-12.4c5.4-3.9,9.2-10.8,12.3-17s-.6-11-6.7-11.4-16.2-1.4-22.9,1.4a321.4,321.4,0,0,1-72,19.9c-1.9.3-3.7,1-5.6,1.4.2.9,3.8,25.6,4.1,26.3C644,350.1,648.6,351.1,653,350.4Z"/>
+        <path id="Element_6" data-name="Element 6" class="cls-1" d="M750.9,354.2c2-3.9,1.9-8.1-2.6-10.1-7.4-3.3-15.2-6-23.3-2.7-20.3,8.5-41.8,11.5-63.5,13.4-7.2.6-14.4,1.5-21.5,2.2.1.6,1.6,16.3,1.5,17.1,2.3.8,4.5,1.9,6.9,2.3,5.8.9,11.6,1.6,17.5,2.2,22.1,2.4,43.9,1.1,65-5.9C740.1,369.7,746.6,362.7,750.9,354.2Z"/>
+        <path id="Element_5" data-name="Element 5" class="cls-1" d="M620.9,394.9c2.8,1.3,5.5,3,8.5,3.8,15.5,4.3,31,8.5,46.6,12.3a70.7,70.7,0,0,0,37.3-1.1,25.2,25.2,0,0,0,10.5-7.1c3.9-4.2,2.6-10.2-2.7-12.2s-14-4.7-21.1-5.3c-14.7-1.3-29.4-1.4-44.2-2.2-5.4-.3-10.8-1.1-16.2-1.7C639.5,382.1,621.1,394.3,620.9,394.9Z"/>
+        <path id="Element_4" data-name="Element 4" class="cls-1" d="M683.9,430c-7.7-6.2-17.2-10.5-26.5-14.6-11-4.9-22.5-8.6-33.8-12.9-.2.5-10.5,10.9-10.8,11.4,5.7,4.4,11.2,9.3,17.3,13.1,15.2,9.6,31.3,17.8,43.3,31.8,3.7,4.3,9.4,3.9,13.9,1.5s8.8-6.8,6.5-12.7S688.8,433.9,683.9,430Z"/>
+        <path id="Element_3" data-name="Element 3" class="cls-1" d="M648.3,445.5c-11.8-7.7-23.3-15.8-35-23.6l-8.4-5.5c-.3.4-13.6,7.9-14,8.3,2.7,3.4,5.3,6.8,8,10.2,9.1,11,18.9,21.6,27.1,33.3,5.2,7.4,11,11.3,19.9,12s15-4.1,15.3-12.7S656.3,450.8,648.3,445.5Z"/>
+        <path id="Element_2" data-name="Element 2" class="cls-1" d="M586.2,432c.2-.7-10.5.9-13,.2,8.4,14.6,14.9,29.7,17.6,46.1,1.3,7.7,5.6,11.6,12.5,14s11,.2,15.5-3.6,4.9-8.4,2.7-13.5C613.9,457.6,601.6,443.6,586.2,432Z"/>
+        <path id="Element_1" data-name="Element 1" class="cls-1" d="M578.9,458.5c-2.6-6.6-6.3-12.8-9.6-19.1-.5.3-11.3,8.5-15,2.9,1.2,11.1,2.9,21.7,3.5,32.4s7.6,15.7,17.2,13.3a10.5,10.5,0,0,0,7.9-12.3C581.8,469.8,581,463.9,578.9,458.5Z"/>
+      </g>
+      <circle id="White_Circle" data-name="White Circle" class="cls-3" cx="474.9" cy="387.4" r="23"/>
+    </g>
+    <g id="Left">
+      <path id="Vertical-2" d="M402.1,961.4c-31.2-238.3-13-504.4-.7-631.9l-3.3-5.2a65.7,65.7,0,0,1-12,1.2L379.9,342l-5.8-.5-5.7-1-1.8-17.7a65.6,65.6,0,0,1-10.9-4.3l-13.2,12.2a82.6,82.6,0,0,1-9.9-6.8l6.7-16.9a66.5,66.5,0,0,1-6.4-7.2l-17.3,5.4a83.1,83.1,0,0,1-6.2-11.1l13.7-12.1a65.7,65.7,0,0,1-2.1-7.1l-18.2-2.1a82.4,82.4,0,0,1-1.1-13.2l17.6-5.1V254l-1.9-.4-1.5-.3H297.7V390.1c37.7,122.4,21.2,249.5-1.7,571.3Z"/>
+      <g id="Wing-2" data-name="Wing">
+        <path id="Element_12-2" data-name="Element 12" class="cls-1" d="M322.2,254.3c-6.2-1.3-12.4-2.5-18.4-4.4-8.9-2.8-12.5-7.9-12.8-16.7-.1-5.6,1.4-10.6,7.4-12.4,10-3,13.7-18.5,6.3-27.4s-16.7-16.7-28.3-20q-24.6-7.2-49.6-13.2c-20.7-5-41.9-8-62.2-14.2-33.9-10.3-64.5-27.4-90.3-51.8-16.1-15.3-29.5-33-30.8-56.4C43,27.3,44.9,16.6,45.7,6.1c.1-1.6.4-3.2.8-6.1-50.7,72.4,5.3,152.4,78.9,166,9.2-1.4,16.7-3.6,25.9,1.2,28.4,14.8,58.6,22.4,90.8,21.5,6.3-.2,12.6.1,16.3,8.6l-8.1-1c-2.6-.3-5.2-1.2-7.7-1.1-7.3.5-14.4,8-14.3,14.6s6.1,11.5,14,12.2c4,.4,8.1,0,12.1,0l.3,1.8-13.3,3.5c-8.1,2-13,7.1-14.1,15.2a9.9,9.9,0,0,0,2.9,7.6c6,4.9,12.5,8.8,20.3,2.8,1.9-1.5,4.8-1.6,8.6-2.9-.7,2.8-.7,4.5-1.5,5.8a25.3,25.3,0,0,1-3.4,4c-3.9,4.5-6.5,9.6-3.2,15.4s14.6,7,19.3,4.4c1.7-1,2.7-3.2,4.1-4.8s4.4-4.6,6.6-6.9l1.8,1.3c-1.5,4.2-3.2,8.3-4.5,12.5s-3.1,9.7,2.1,12.9a12.7,12.7,0,0,0,15.2-.9l1.7-1.5c3,.9,7.1-.9,8-4.1a7.9,7.9,0,0,0-1.2-7.1,5,5,0,0,0-.5-1.3c-.7-1.3-1.9-1.9-2.8-3s-.2-1.5-1-3.3l-.5-.8.2-.5c1.2-3.3.1-6,.1-9.2a5.6,5.6,0,0,0-1.2-3.7l.5-.4c3.2-2,6.9-2.6,10.6-2.6l.9-.2a93.1,93.1,0,0,1,11.7-.8Z"/>
+        <path id="Element_11-2" data-name="Element 11" class="cls-1" d="M122.1,203.4c-7-4.1-13.8-21.6-14.9-22.4a60.3,60.3,0,0,0-6.3-4.8c-20.6-11.8-40.3-25.1-56.3-42.9-6.2-6.9-15.5-24-13.9-22.3L8.6,65.2C-.1,148.4,70.9,211.4,122.1,203.4Z"/>
+        <path id="Element_10-2" data-name="Element 10" class="cls-1" d="M117.8,248l.5-1.3c-2.7-4.1-18.3-26.5-21.6-36.2C58.2,193.5,25.6,169.2,1,133.3-9.6,179.4,63.9,234.4,117.8,248Z"/>
+        <path id="Element_9-2" data-name="Element 9" class="cls-2" d="M135.1,258.1C85.1,246.7,36.3,232.8.3,192.9c9.9,64,116.6,88.5,129.4,89.9C129.7,282.8,124.9,267.4,135.1,258.1Z"/>
+        <path id="Element_8-2" data-name="Element 8" class="cls-2" d="M159.9,308.3c-8-2.3-7.6-18-7.4-19.1-39.8-.7-78.6-5.5-115.2-26.7,9,32.4,89.7,64.1,123.5,46.6C160.5,308.8,160.3,308.4,159.9,308.3Z"/>
+        <path id="Element_7-2" data-name="Element 7" class="cls-1" d="M148.6,174.2c-6.7-2.8-15.2-2-22.9-1.4s-9.4,5.9-6.7,11.4,6.9,13.1,12.3,17a77.6,77.6,0,0,0,26.1,12.4c16.8,4.1,34.1,6.2,51.2,8.8,4.4.6,9-.3,13.4-.5.2-.7,1.8-18.5,3.6-23.5l.5-2.8c-1.9-.5-3.7-1.1-5.6-1.4A321.4,321.4,0,0,1,148.6,174.2Z"/>
+        <path id="Element_6-2" data-name="Element 6" class="cls-1" d="M195.7,250.6c5.8-.6,11.7-1.3,17.5-2.2,2.4-.4,4.6-1.5,6.9-2.3.9-2.7-.1-9.7,1.4-15.2l.2-1.8c-7.2-.7-14.3-1.6-21.5-2.2-21.7-1.9-43.1-4.9-63.5-13.4-8.1-3.4-15.9-.6-23.3,2.7-4.5,2-4.6,6.2-2.6,10.1,4.4,8.6,10.8,15.5,20,18.6C151.8,251.7,173.6,253,195.7,250.6Z"/>
+        <path id="Element_5-2" data-name="Element 5" class="cls-1" d="M148.3,281.8a70.7,70.7,0,0,0,37.3,1.1c15.6-3.8,31.1-8.1,46.6-12.3,3-.8,5.7-2.5,8.5-3.8-.2-.5-18.6-12.8-18.8-13.6-5.4.6-10.8,1.4-16.2,1.7-14.7.8-29.5.9-44.2,2.2-7.2.6-14.3,2.8-21.1,5.3s-6.6,8-2.7,12.2A25.2,25.2,0,0,0,148.3,281.8Z"/>
+        <path id="Element_4-2" data-name="Element 4" class="cls-1" d="M248.8,285.9c-.3-.5-10.6-10.9-10.8-11.4-11.3,4.2-22.8,8-33.8,12.9-9.2,4.1-18.7,8.4-26.5,14.6-4.9,3.9-7.4,11.4-9.8,17.6s1.8,10.3,6.5,12.7,10.2,2.8,13.9-1.5c12-14,28.1-22.2,43.3-31.8C237.6,295.2,243.1,290.3,248.8,285.9Z"/>
+        <path id="Element_3-2" data-name="Element 3" class="cls-1" d="M270.6,296.7c-.4-.4-13.7-7.9-14-8.2l-8.4,5.5c-11.7,7.9-23.2,15.9-35,23.6-8,5.2-13.2,12-12.9,21.8s6.8,13.4,15.3,12.7,14.7-4.5,19.9-12c8.2-11.7,18-22.2,27.1-33.3C265.4,303.5,268,300,270.6,296.7Z"/>
+        <path id="Element_2-2" data-name="Element 2" class="cls-1" d="M275.4,304s-27.7,25.6-35.4,43.3c-2.2,5.1-1.8,9.8,2.7,13.5s9.3,5.7,15.5,3.6,11.3-6.3,12.5-14c2.7-16.4,17.6-46.1,17.6-46.1Z"/>
+        <path id="Element_1-2" data-name="Element 1" class="cls-1" d="M292.3,311.3c-3.2,6.4-7,12.5-9.6,19.1s-2.9,11.3-4,17.1a10.5,10.5,0,0,0,7.9,12.3c9.6,2.4,16.6-3.4,17.2-13.3s2.3-21.3,3.5-32.4C303.6,319.8,292.9,311.6,292.3,311.3Z"/>
+      </g>
+      <circle id="White_Circle-2" data-name="White Circle" class="cls-3" cx="388.9" cy="251.4" r="28"/>
+    </g>
+  </g>
+  <g id="Text">
+    <g id="techtatva">
+    <path class="cls-3" id="t" d="M689.2,637.2H658.8v-5.8H726v5.8H695.7v78.1h-6.5Z"/>
+    <path class="cls-3" id="e" d="M717.6,685.7c0-17.8,13.4-30.6,30.1-30.6s31.6,10.2,29.3,33.4H723.6c1.2,13.9,11.9,22,24.1,22,7.8,0,16.9-3.1,21.4-9l4.2,3.4c-5.8,7.6-16.1,11.4-25.6,11.4C731.1,716.2,717.6,704.6,717.6,685.7Zm54.1-2.4c-.1-14.6-9.7-22.8-24-22.8-12.2,0-22.8,8.3-24.1,22.8Z"/>
+    <path class="cls-3" id="c" d="M840.9,707.1a30.3,30.3,0,0,1-21.6,8.9c-16.7,0-30.5-11.5-30.5-30.2s13.3-30.2,30.5-30.2a30.8,30.8,0,0,1,21.6,8.9l-3.8,3.7a25.1,25.1,0,0,0-17.8-7.1c-13.4,0-24.7,8.8-24.7,24.7s11.3,24.7,24.7,24.7a25.1,25.1,0,0,0,17.6-7.3Z"/>
+    <path class="cls-3" id="h" d="M858.5,631.4v35.8c4.8-8.5,13.1-11.8,21.4-11.9,16.6,0,24.8,10.7,24.8,26.2v34h-5.8v-34c0-12.2-5.8-20.5-19.1-20.5s-21.1,9.6-21.1,22v32.5h-5.9v-84Z"/>
+    <path class="cls-1" id="t2" d="M945,637.2H914.7v-5.8h67.2v5.8H951.5v78.1H945Z"/>
+    <path class="cls-1" id="a" d="M1035,656.1v59.3h-5.9V702.8a27.7,27.7,0,0,1-24.2,13.6c-16.6,0-30.1-12.5-30.1-30.6s13.6-30.4,30.1-30.4c9.6,0,19.3,4.4,24.2,13.7v-13Zm-54.4,29.6c0,14.9,10.8,24.8,24.2,24.8,33,0,33-49.6,0-49.6C991.5,661,980.7,670.8,980.7,685.7Z"/>
+    <path class="cls-1" id="t3" d="M1062,638.2v17.9h20.2V661H1062v36.1c0,8,1.7,13.7,10.9,13.7a22,22,0,0,0,9.1-2.4l2,4.8a25.9,25.9,0,0,1-11.2,3c-12.6,0-16.7-7.4-16.7-19.1V661h-12.6v-4.9h12.6V638.8Z"/>
+    <path class="cls-1" id="v" d="M1090.1,656.1h6.5l21.6,52.4,21.6-52.4h6.5l-24.8,59.3h-6.5Z"/>
+    <path class="cls-1" id="a2" d="M1213,656.1v59.3h-5.9V702.8a27.7,27.7,0,0,1-24.2,13.6c-16.6,0-30.1-12.5-30.1-30.6s13.6-30.4,30.1-30.4c9.6,0,19.3,4.4,24.2,13.7v-13Zm-54.4,29.6c0,14.9,10.8,24.8,24.2,24.8,33,0,33-49.6,0-49.6C1169.4,661,1158.6,670.8,1158.6,685.7Z"/>
+  </g>
+  <g id="17">
+    <path class="cls-3" id="num1" d="M1273.5,631l-6.2,22.6h-6.8l7.8-22.6Z"/>
+    <path class="cls-3" id="num2" d="M1280.4,709.7h14.2V637.1h-14.2v-5.8h20.6v78.4h14.2v5.6h-34.8Z"/>
+    <path class="cls-3" id="num3" d="M1377.5,637.4H1323v-6h61.2l.8,5.3-45.6,78.7h-7.3Z"/>
+  </g>
+    <g id="realising">
+    <path class="cls-1" id="R" d="M688.6,780.9v20.9h-3.8V755.6h15.4q7.4,0,11.4,3.3t4,9.5a10.9,10.9,0,0,1-2.1,6.6,12,12,0,0,1-6,4.2,10.1,10.1,0,0,1,6.2,3.9,12.1,12.1,0,0,1,1.9,7v4.3a13.6,13.6,0,0,0,.5,3.9,6,6,0,0,0,1.7,2.8v.8h-3.9a6.3,6.3,0,0,1-1.7-3.2,19,19,0,0,1-.5-4.3V790a8.6,8.6,0,0,0-2.7-6.7q-2.7-2.5-7.7-2.5Zm0-3.2h11.1q6.3,0,9.1-2.5a8.6,8.6,0,0,0,2.9-6.8,8.7,8.7,0,0,0-2.9-7q-2.9-2.5-8.7-2.5H688.6Z"/>
+    <path class="cls-1" id="e2" d="M741.1,802.4a13.7,13.7,0,0,1-10.8-4.7q-4.2-4.7-4.2-12.1v-1.7a18,18,0,0,1,4.2-12.3,13.3,13.3,0,0,1,10.4-4.8q6.3,0,9.7,4t3.4,10.8v3H729.9v1a15.5,15.5,0,0,0,3,9.7,9.8,9.8,0,0,0,8.2,3.9,15.7,15.7,0,0,0,5.8-1,12.6,12.6,0,0,0,4.4-2.8l1.6,2.6a14,14,0,0,1-4.7,3.2A17.9,17.9,0,0,1,741.1,802.4Zm-.3-32.4a9.3,9.3,0,0,0-7.2,3.1,13.5,13.5,0,0,0-3.3,8v.2H750v-.8a11.6,11.6,0,0,0-2.4-7.5A8.3,8.3,0,0,0,740.7,770Z"/>
+    <path class="cls-1" id="a9" d="M784.8,801.8q-.4-1.8-.5-3.1a20.1,20.1,0,0,1-.2-2.7,13.9,13.9,0,0,1-5,4.6,14.6,14.6,0,0,1-7.4,1.8q-5,0-7.8-2.7a9.7,9.7,0,0,1-2.8-7.3,8.8,8.8,0,0,1,4-7.5q4-2.9,10.5-2.9h8.4v-4.3a7.4,7.4,0,0,0-2.3-5.8,9.5,9.5,0,0,0-6.6-2.1,9.8,9.8,0,0,0-6.3,1.9,5.9,5.9,0,0,0-2.4,4.8H763v-.2a8.1,8.1,0,0,1,3.3-6.8,13.8,13.8,0,0,1,9.2-2.9,13.6,13.6,0,0,1,9.1,2.9q3.4,2.9,3.4,8.3v16.9a29.4,29.4,0,0,0,.2,3.5,22.2,22.2,0,0,0,.7,3.4Zm-12.6-2.7a13.6,13.6,0,0,0,7.6-2.1,10.4,10.4,0,0,0,4.3-5.3v-6.6h-8.5a12.6,12.6,0,0,0-7.6,2.2,6.5,6.5,0,0,0-3,5.3,6.1,6.1,0,0,0,1.9,4.7A7.5,7.5,0,0,0,772.2,799.1Z"/>
+    <path class="cls-1" id="l" d="M803.9,801.8h-3.8V752.2h3.8Z"/>
+    <path class="cls-1" id="i" d="M820.3,757.6h-3.8v-5.3h3.8Zm0,44.2h-3.8V767.4h3.8Z"/>
+    <path class="cls-1" id="z" d="M853,793a5.5,5.5,0,0,0-2-4.2q-2-1.8-7.2-2.9t-9.1-3.5a7.2,7.2,0,0,1-3-6.2,8.3,8.3,0,0,1,3.3-6.7,13.4,13.4,0,0,1,8.8-2.7q5.7,0,9.2,2.9a8.6,8.6,0,0,1,3.3,7.2v.2h-3.5a6.3,6.3,0,0,0-2.4-4.9,9.5,9.5,0,0,0-6.4-2.1q-4.1,0-6.2,1.8a5.4,5.4,0,0,0-2.1,4.2,4.9,4.9,0,0,0,1.8,3.9q1.8,1.5,7.2,2.7t9.1,3.7a7.7,7.7,0,0,1,3.1,6.4,8.4,8.4,0,0,1-3.5,7,14.6,14.6,0,0,1-9.2,2.7q-6.3,0-9.8-3a8.4,8.4,0,0,1-3.4-7.1v-.2h3.5a6.3,6.3,0,0,0,3,5.4,12.6,12.6,0,0,0,6.6,1.7,10.4,10.4,0,0,0,6.5-1.8A5.4,5.4,0,0,0,853,793Z"/>
+    <path class="cls-1" id="i2" d="M871.4,757.6h-3.8v-5.3h3.8Zm0,44.2h-3.8V767.4h3.8Z"/>
+    <path class="cls-1" id="n" d="M886.9,767.4l.3,6a12.5,12.5,0,0,1,4.5-4.9,12.4,12.4,0,0,1,6.6-1.7q5.6,0,8.5,3.4t2.9,10.6v20.9H906V780.9q0-5.9-2.2-8.3a8,8,0,0,0-6.3-2.4,10.2,10.2,0,0,0-6.6,2,11.2,11.2,0,0,0-3.6,5.4v24.3h-3.8V767.4Z"/>
+    <path class="cls-1" id="g" d="M920,784.9q0-8.2,3.5-13.2a11.2,11.2,0,0,1,9.7-4.9,12.4,12.4,0,0,1,6.3,1.6,12.6,12.6,0,0,1,4.4,4.5l.5-5.4h3.1v34.5q0,6.6-3.6,10.1t-10.3,3.6a25.3,25.3,0,0,1-5.3-.6,20.7,20.7,0,0,1-4.9-1.7l.7-3.2a19.7,19.7,0,0,0,4.4,1.5,22.8,22.8,0,0,0,5,.5q5.1,0,7.6-2.6t2.5-7.7v-4.9a11.8,11.8,0,0,1-4.4,4,13.4,13.4,0,0,1-6.2,1.4,11.4,11.4,0,0,1-9.6-4.6q-3.5-4.6-3.5-12.3Zm3.8.7q0,6.2,2.5,9.9a8.5,8.5,0,0,0,7.5,3.7,10.7,10.7,0,0,0,6.1-1.6,10.9,10.9,0,0,0,3.8-4.5V776.6a12,12,0,0,0-3.7-4.7,9.9,9.9,0,0,0-6.1-1.8,8.3,8.3,0,0,0-7.6,4.1q-2.5,4.1-2.5,10.7Z"/>
+  </g>
+  <g id="fiction">
+    <path class="cls-3" id="f" d="M1002.5,780.1H981.3v21.6h-3.8V755.5h28.3v3.2H981.3v18.1h21.2Z"/>
+    <path class="cls-3" id="i3" d="M1018.3,757.6h-3.8v-5.3h3.8Zm0,44.2h-3.8V767.4h3.8Z"/>
+    <path class="cls-3" id="c2" d="M1043,799.2a10.3,10.3,0,0,0,6.5-2.2,7.1,7.1,0,0,0,2.8-6h3.4v.2a9.6,9.6,0,0,1-3.7,8,13.7,13.7,0,0,1-9,3.2q-6.9,0-10.7-4.8t-3.8-12.3v-1.3q0-7.5,3.8-12.3t10.7-4.8a13.2,13.2,0,0,1,9.2,3.3,10.9,10.9,0,0,1,3.6,8.8v.2h-3.4a8.5,8.5,0,0,0-2.7-6.6,9.4,9.4,0,0,0-6.6-2.5q-5.4,0-8,4a17.6,17.6,0,0,0-2.6,9.9v1.3a17.7,17.7,0,0,0,2.6,10Q1037.5,799.2,1043,799.2Z"/>
+    <path class="cls-3" id="t4" d="M1071.4,758.6v8.8h7.6v3.1h-7.6v22.4q0,3.4,1.2,4.8a4.1,4.1,0,0,0,3.3,1.4h1.3l1.5-.3.6,2.8-1.9.6-2.2.2a7.1,7.1,0,0,1-5.6-2.3q-2-2.3-2-7.2V770.5h-5.9v-3.1h5.9v-8.8Z"/>
+    <path class="cls-3" id="i4" d="M1092.3,757.6h-3.8v-5.3h3.8Zm0,44.2h-3.8V767.4h3.8Z"/>
+    <path class="cls-3" id="o" d="M1102.3,784.1q0-7.6,4.2-12.4a15,15,0,0,1,22.1,0q4.2,4.9,4.2,12.4v1q0,7.6-4.1,12.5a15,15,0,0,1-22.1,0q-4.2-4.8-4.2-12.5Zm3.8,1a16.4,16.4,0,0,0,3,10,10.7,10.7,0,0,0,16.7,0,16.3,16.3,0,0,0,3-10v-1a16.2,16.2,0,0,0-3-10,10.6,10.6,0,0,0-16.7,0,16.3,16.3,0,0,0-3,10Z"/>
+    <path class="cls-3" id="n2" d="M1145.6,767.4l.3,6a12.5,12.5,0,0,1,4.5-4.9,12.4,12.4,0,0,1,6.6-1.7q5.6,0,8.5,3.4t2.9,10.6v20.9h-3.8V780.9q0-5.9-2.2-8.3a8,8,0,0,0-6.3-2.4,10.2,10.2,0,0,0-6.6,2,11.2,11.2,0,0,0-3.6,5.4v24.3h-3.8V767.4Z"/>
+  </g>
+  </g>
+</svg>
