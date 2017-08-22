@@ -52,9 +52,9 @@ state2.update = function() {
 		if( this.character.transform.y > 3) {
 			this.character.y +=3
 		}
-			if (this.character.animation.currentAnimation.name !== "movedown") {
-				this.character.animation.play( "movedown" );
-		}
+		// 	if (this.character.animation.currentAnimation.name !== "movedown") {
+		// 		this.character.animation.play( "movedown" );
+		// }
 	}
 	else if(this.upKey.isDown) {
 		if ( this.character.transform.y > 3 ) {
