@@ -50,26 +50,56 @@ state1.update = function() {
 
 
     if (this.downKey.isDown) {
-    	
-            this.character.y += 3;
+
+            
         if(this.character.rotation>0){
-            this.character.x -=3;
+            this.character.x += Math.cos(this.character.rotation)*3;
+            this.character.y += Math.sin(this.character.rotation)*3;
         }
         else if(this.character.rotation<0){
-        	this.character.x +=3;
+        	this.character.x += Math.cos(this.character.rotation)*3;
+        	this.character.y += Math.sin(this.character.rotation)*3;
         }
 
 
     } else if (this.upKey.isDown) {
 
-        	this.character.y -=3;
+        	// this.character.y -=3;
+        // console.log(Math.sin(this.character.rotation));
+        console.log(Math.cos(this.character.rotation));	
+        if(Math.cos(this.character.rotation)==1){
+        	console.log("working");
+        	this.character.y -= Math.cos(this.character.rotation)*3;
+        	// this.character.x += Math.sin(this.character.rotation)*3;
+        }
+        else if(Math.cos(this.character.rotation)==-1){
+        	// console.log('working');
+        	this.character.y -= Math.cos(this.character.rotation)*3;
+        	// this.character.x += Math.sin(this.character.rotation)*3;
+        }
+        else{
 
-        if(this.character.rotation>0){
-            this.character.x +=3;
+        if(Math.sin(this.character.rotation)>0 && Math.cos(this.character.rotation)>0){
+            // this.character.x += Math.cos(this.character.rotation)*3;
+            this.character.y -= Math.sin(this.character.rotation)*3;
+            this.character.x +=Math.sin(this.character.rotation)*3;
         }
-        else if(this.character.rotation<0){
-        	this.character.x -=3;
+        if(Math.sin(this.character.rotation)<0 && Math.cos(this.character.rotation)>0){
+        	this.character.x -= Math.cos(this.character.rotation)*3;
+        	this.character.y += Math.sin(this.character.rotation)*3;	
+        } 
+        if(Math.cos(this.character.rotation)<0 && Math.sin(this.character.rotation)>0){
+        	// console.log(Math.sin(this.character.rotation)*3);
+        	this.character.x -= Math.cos(this.character.rotation)*3;
+        	this.character.y +=Math.sin(this.character.rotation)*3;
+        	// console.log("working!!");
+        	   // this.character.y +=3;
         }
+        if(Math.cos(this.character.rotation)<0 && Math.sin(this.character.rotation)<0){
+        	this.character.x += Math.cos(this.character.rotation)*3;
+        	this.character.y -=Math.sin(this.character.rotation)*3;
+        }
+    }
 
             // this.character.y -= Math.sin(this.findAngle())*this.speed;
             // this.character.x -= Math.cos(this.findAngle())*this.speed;
