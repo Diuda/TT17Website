@@ -66,9 +66,8 @@ state1.update = function() {
 
         	// this.character.y -=3;
         // console.log(Math.sin(this.character.rotation));
-        console.log(Math.cos(this.character.rotation));	
+        // console.log(Math.cos(this.character.rotation));	
         if(Math.cos(this.character.rotation)==1){
-        	console.log("working");
         	this.character.y -= Math.cos(this.character.rotation)*3;
         	// this.character.x += Math.sin(this.character.rotation)*3;
         }
@@ -77,6 +76,13 @@ state1.update = function() {
         	this.character.y -= Math.cos(this.character.rotation)*3;
         	// this.character.x += Math.sin(this.character.rotation)*3;
         }
+        else if(Math.sin(this.character.rotation)==1){
+        	this.character.x += Math.sin(this.character.rotation)*3;
+        }
+        else if(Math.sin(this.character.rotation)==-1){
+        	this.character.x += Math.sin(this.character.rotation)*3;
+        }
+
         else{
 
         if(Math.sin(this.character.rotation)>0 && Math.cos(this.character.rotation)>0){
